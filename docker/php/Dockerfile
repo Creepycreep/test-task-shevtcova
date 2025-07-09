@@ -6,12 +6,8 @@ COPY --from=mlocati/php-extension-installer /usr/bin/install-php-extensions /usr
 RUN install-php-extensions \
     intl \
     uopz \
-    opcache \
     pdo_pgsql \
-    redis \
     uuid \
-    gd \
-    xdebug-stable \
  > /dev/null
 RUN rm /usr/bin/install-php-extensions
 
