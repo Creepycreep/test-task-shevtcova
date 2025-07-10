@@ -20,5 +20,11 @@
 cd docker
 ```
 
+и запустите команду:
+
+```bash
+docker compose up
+```
+
 Приложение с API будет доступно по адресу http://localhost:8080.
 
