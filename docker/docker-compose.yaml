@@ -18,7 +18,30 @@ services:
     user: "1000:1000"
     build:
       context: ./../
-      dockerfile: ./docker/php/Dockerfile
+      dockerfile: ./docker/php/cli/Dockerfile
+    volumes:
+      - type: bind
+        source: ./../app/
+        target: /var/www/html/
+    env_file: ./../app/.env.test
+
+  nginx:
+    container_name: ${COMPOSE_PROJECT_NAME}-nginx
+    build:
+      context: ./../
+      dockerfile: ./docker/nginx/Dockerfile
+    environment:
+      PHP_FPM_HOST: php-fpm
+    ports:
+      - target: 80
+        published: 8080
+
+  php-fpm:
+    container_name: ${COMPOSE_PROJECT_NAME}-php-fpm
+    user: "1000:1000"
+    build:
+      context: ./../
+      dockerfile: ./docker/php/fpm/Dockerfile
     volumes:
       - type: bind
         source: ./../app/
