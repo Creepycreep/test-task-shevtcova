@@ -15,7 +15,6 @@ WORKDIR /var/www/html
 
 COPY --from=mlocati/php-extension-installer /usr/bin/install-php-extensions /usr/bin/
 RUN install-php-extensions \
-    intl \
     pdo_pgsql \
     uuid \
  > /dev/null

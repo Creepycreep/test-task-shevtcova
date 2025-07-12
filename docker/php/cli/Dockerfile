@@ -4,9 +4,9 @@ WORKDIR /var/www/html
 
 COPY --from=mlocati/php-extension-installer /usr/bin/install-php-extensions /usr/bin/
 RUN install-php-extensions \
-    uopz \
     pdo_pgsql \
     uuid \
+    xdebug-stable \
  > /dev/null
 RUN rm /usr/bin/install-php-extensions
 

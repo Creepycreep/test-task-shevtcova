@@ -15,3 +15,9 @@
 
 ../.idea
 ###< phpunit/phpunit ###
+
+###> friendsofphp/php-cs-fixer ###
+/.php-cs-fixer.cache
+
+/node_modules
+###< friendsofphp/php-cs-fixer ###

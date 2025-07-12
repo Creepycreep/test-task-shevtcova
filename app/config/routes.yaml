@@ -1,5 +1,11 @@
 controllers:
     resource:
-        path: ../src/Presentation/Controller/
-        namespace: App\Presentation\Controller
+        path: ../src/Presentation/Http/Common/Controller
+        namespace: App\Presentation\Http\Common\Controller
+    type: attribute
+
+user:
+    resource:
+        path: ../src/Presentation/Http/User/Controller
+        namespace: App\Presentation\Http\User\Controller
     type: attribute
