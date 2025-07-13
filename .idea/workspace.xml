@@ -5,40 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3c070a6-dd47-4888-abae-a271c5b7b8e5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.run/PHPUnit.run.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/Infrastructure/EpisodeApi/FakeRickAndMortyEpisodeApiClient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/Infrastructure/EpisodeApi/RickAndMortyEpisodeApiCompilerPass.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1b2fe7c6-d899-4308-9dd3-80ca2ed42b6e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1b2fe7c6-d899-4308-9dd3-80ca2ed42b6e.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1b2fe7c6-d899-4308-9dd3-80ca2ed42b6e/storage_v2/_src_/database/test-task.4B3otg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1b2fe7c6-d899-4308-9dd3-80ca2ed42b6e/storage_v2/_src_/database/test-task.4B3otg/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.env" beforeDir="false" afterPath="$PROJECT_DIR$/app/.env" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.env.dev" beforeDir="false" afterPath="$PROJECT_DIR$/app/.env.dev" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.env.test" beforeDir="false" afterPath="$PROJECT_DIR$/app/.env.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/app/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/services.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/Domain/Episode/Repository/EpisodeRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Domain/Episode/Repository/EpisodeRepository.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/Domain/Episode/Service/AddEpisodeService.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Domain/Episode/Service/AddEpisodeService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/Domain/Review/Service/AddReviewService.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Domain/Review/Service/AddReviewService.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/Presentation/Http/User/Controller/UserAddReviewController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Presentation/Http/User/Controller/UserAddReviewController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/Presentation/Http/User/Controller/UserGetEpisodeSummaryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Presentation/Http/User/Controller/UserGetEpisodeSummaryController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/Presentation/Http/User/Dto/AddReviewDto.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Presentation/Http/User/Dto/AddReviewDto.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/app/symfony.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/tests/BaseTestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/tests/BaseTestCase.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/tests/Builder/EpisodeBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/tests/Builder/EpisodeBuilder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/tests/Builder/ReviewBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/tests/Builder/ReviewBuilder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/tests/Functional/Domain/Episode/Service/AddEpisodeServiceTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/tests/Functional/Domain/Episode/Service/AddEpisodeServiceTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/tests/Functional/Domain/Episode/Service/CreateEpisodeServiceTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/tests/Functional/Domain/Episode/Service/CreateEpisodeServiceTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/tests/Functional/Domain/Review/Service/AddReviewServiceTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/tests/Functional/Domain/Review/Service/AddReviewServiceTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/tests/Functional/Infrastructure/Http/User/UserAddReviewTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/tests/Functional/Infrastructure/Http/User/UserAddReviewTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/tests/Functional/Infrastructure/Http/User/UserGetEpisodeSummaryTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/tests/Functional/Infrastructure/Http/User/UserGetEpisodeSummaryTest.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/tests/RequestBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/tests/RequestBuilder.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/tests/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/tests/bootstrap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker/docker-compose.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -244,7 +211,7 @@
       <recent name="$PROJECT_DIR$/app/src/Domain/Review" />
     </key>
   </component>
-  <component name="RunManager" selected="PHPUnit.UserAddReviewTest.testAddReviewTooShortFail">
+  <component name="RunManager" selected="PHP Script.Setup clean DB">
     <configuration name="AddEpisodeServiceTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="App\Tests\Functional\Domain\Episode\Service\AddEpisodeServiceTest" configuration_file="/var/www/html/phpunit.dist.xml" file="$PROJECT_DIR$/app/tests/Functional/Domain/Episode/Service/AddEpisodeServiceTest.php" scope="Class" />
       <method v="2" />
@@ -314,7 +281,7 @@
       <workItem from="1752327518804" duration="2225000" />
       <workItem from="1752329757049" duration="11501000" />
       <workItem from="1752396874814" duration="3849000" />
-      <workItem from="1752400742374" duration="527000" />
+      <workItem from="1752400742374" duration="835000" />
     </task>
     <servers />
   </component>
