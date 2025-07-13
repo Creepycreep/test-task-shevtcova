@@ -3,6 +3,7 @@
 declare(strict_types=1);
 
 namespace App\Tests;
+
 use Symfony\Bundle\FrameworkBundle\KernelBrowser;
 use Symfony\Component\HttpFoundation\Response;
 
@@ -12,10 +13,12 @@ class RequestBuilder
         private readonly KernelBrowser $client,
         private readonly string $method,
         private readonly string $uri,
-    ) {}
+    ) {
+    }
 
     private array $content = [];
     private array $server = [];
+
     public function execute(): Response
     {
         $this->server['CONTENT_TYPE'] = 'application/json';
@@ -33,6 +36,7 @@ class RequestBuilder
     public function withBody(array $content): self
     {
         $this->content = $content;
+
         return $this;
     }
 }

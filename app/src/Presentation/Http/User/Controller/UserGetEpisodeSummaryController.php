@@ -5,17 +5,12 @@ declare(strict_types=1);
 namespace App\Presentation\Http\User\Controller;
 
 use App\Domain\Episode\Repository\EpisodeRepository;
-use App\Domain\Episode\Service\AddEpisodeService;
 use App\Domain\Review\Repository\ReviewRepository;
 use App\Domain\Review\Review;
-use App\Domain\Review\Service\AddReviewService;
-use App\Presentation\HTTP\User\Dto\AddReviewDto;
-use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\JsonResponse;
 use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpKernel\Attribute\AsController;
-use Symfony\Component\HttpKernel\Attribute\MapRequestPayload;
 use Symfony\Component\HttpKernel\Exception\NotFoundHttpException;
 use Symfony\Component\Routing\Annotation\Route;
 
@@ -26,7 +21,8 @@ class UserGetEpisodeSummaryController extends AbstractController
     public function __construct(
         private EpisodeRepository $episodeRepository,
         private ReviewRepository $reviewRepository,
-    ) {}
+    ) {
+    }
 
     #[Route('/{id}/summary', methods: [Request::METHOD_GET])]
     public function getEpisodeSummary(int $id): JsonResponse
@@ -50,7 +46,7 @@ class UserGetEpisodeSummaryController extends AbstractController
     private function normalizeReviews(array $reviews): array
     {
         return array_map(
-            fn(Review $review): array => [
+            fn (Review $review): array => [
                 'id' => $review->id->toRfc4122(),
                 'reviewText' => $review->reviewText,
                 'sentimentScore' => $review->sentimentScore,

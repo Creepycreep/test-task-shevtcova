@@ -11,7 +11,9 @@ use App\Infrastructure\SentimentAnalyzer\SentimentAnalyzer;
 
 readonly class AddReviewService
 {
-    public function __construct(private ReviewRepository $repository, private SentimentAnalyzer $analyzer) {}
+    public function __construct(private ReviewRepository $repository, private SentimentAnalyzer $analyzer)
+    {
+    }
 
     public function add(string $reviewText, Episode $episode): Review
     {

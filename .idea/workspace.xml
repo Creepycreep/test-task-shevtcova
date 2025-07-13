@@ -5,58 +5,40 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3c070a6-dd47-4888-abae-a271c5b7b8e5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.run/Clear Symfony cache (test).run.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.run/Setup clean DB.run.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.run/php-cs-fixer.run.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.prettierignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/.prettierrc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/Domain/Episode/Dto/EpisodeInfoDto.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/Domain/Episode/Episode.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/Domain/Episode/EpisodeApiInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/Domain/Episode/Repository/EpisodeRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/Domain/Episode/Service/AddEpisodeService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/Domain/Episode/Service/CreateEpisodeService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/Domain/Review/Repository/ReviewRepository.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/Domain/Review/Review.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/Domain/Review/ReviewSentimentAnalyzerInterface.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/Domain/Review/Service/AddReviewService.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/Infrastructure/EpisodeApi/RickAndMortyEpisodeApiClient.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/Infrastructure/SentimentAnalyzer/SentimentAnalyzer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/Presentation/Http/User/Controller/UserAddReviewController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/Presentation/Http/User/Controller/UserGetEpisodeSummaryController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/src/Presentation/Http/User/Dto/AddReviewDto.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/tests/BaseTestCase.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/tests/Builder/EpisodeBuilder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/tests/Builder/ReviewBuilder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/tests/Functional/Domain/Episode/Service/AddEpisodeServiceTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/tests/Functional/Domain/Episode/Service/CreateEpisodeServiceTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/tests/Functional/Domain/Review/Service/AddReviewServiceTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/tests/Functional/Infrastructure/Http/User/UserAddReviewTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/tests/Functional/Infrastructure/Http/User/UserGetEpisodeSummaryTest.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/tests/RequestBuilder.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/tests/Unit/Infrastructure/SentimentAnalyzer/SentimentAnalyzerTest.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.run/PHPUnit.run.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/Infrastructure/EpisodeApi/FakeRickAndMortyEpisodeApiClient.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/Infrastructure/EpisodeApi/RickAndMortyEpisodeApiCompilerPass.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1b2fe7c6-d899-4308-9dd3-80ca2ed42b6e.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1b2fe7c6-d899-4308-9dd3-80ca2ed42b6e.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1b2fe7c6-d899-4308-9dd3-80ca2ed42b6e/storage_v2/_src_/database/test-task.4B3otg/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/1b2fe7c6-d899-4308-9dd3-80ca2ed42b6e/storage_v2/_src_/database/test-task.4B3otg/schema/public.abK9xQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/.env" beforeDir="false" afterPath="$PROJECT_DIR$/app/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/.env.dev" beforeDir="false" afterPath="$PROJECT_DIR$/app/.env.dev" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/.env.test" beforeDir="false" afterPath="$PROJECT_DIR$/app/.env.test" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/app/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/bin/console" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/console" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/bin/phpunit" beforeDir="false" afterPath="$PROJECT_DIR$/app/bin/phpunit" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/app/composer.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/app/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/config/bundles.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/bundles.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/packages/cache.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/packages/cache.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/packages/routing.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/packages/routing.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/preload.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/preload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/config/routes.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/routes.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/config/services.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/app/config/services.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/phpunit.dist.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/phpunit.dist.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/public/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/public/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/Domain/Episode/Repository/EpisodeRepository.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Domain/Episode/Repository/EpisodeRepository.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/Domain/Episode/Service/AddEpisodeService.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Domain/Episode/Service/AddEpisodeService.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/Domain/Review/Service/AddReviewService.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Domain/Review/Service/AddReviewService.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/src/Kernel.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Kernel.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/Presentation/Controller/Common/HealthCheck.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Presentation/Http/Common/Controller/HealthCheck.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/Presentation/Http/User/Controller/UserAddReviewController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Presentation/Http/User/Controller/UserAddReviewController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/Presentation/Http/User/Controller/UserGetEpisodeSummaryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Presentation/Http/User/Controller/UserGetEpisodeSummaryController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/Presentation/Http/User/Dto/AddReviewDto.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/Presentation/Http/User/Dto/AddReviewDto.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/symfony.lock" beforeDir="false" afterPath="$PROJECT_DIR$/app/symfony.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/tests/BaseTestCase.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/tests/BaseTestCase.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/tests/Builder/EpisodeBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/tests/Builder/EpisodeBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/tests/Builder/ReviewBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/tests/Builder/ReviewBuilder.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/tests/Functional/Domain/Episode/Service/AddEpisodeServiceTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/tests/Functional/Domain/Episode/Service/AddEpisodeServiceTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/tests/Functional/Domain/Episode/Service/CreateEpisodeServiceTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/tests/Functional/Domain/Episode/Service/CreateEpisodeServiceTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/tests/Functional/Domain/Review/Service/AddReviewServiceTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/tests/Functional/Domain/Review/Service/AddReviewServiceTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/tests/Functional/Infrastructure/Http/User/UserAddReviewTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/tests/Functional/Infrastructure/Http/User/UserAddReviewTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/tests/Functional/Infrastructure/Http/User/UserGetEpisodeSummaryTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/tests/Functional/Infrastructure/Http/User/UserGetEpisodeSummaryTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/tests/RequestBuilder.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/tests/RequestBuilder.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/tests/bootstrap.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/tests/bootstrap.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/php/cli/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/docker/php/cli/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/docker/php/fpm/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/docker/php/fpm/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/docker/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/docker/docker-compose.yaml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -198,6 +180,7 @@
       <path value="$PROJECT_DIR$/app/vendor/phpdocumentor/type-resolver" />
       <path value="$PROJECT_DIR$/app/vendor/symfony/translation-contracts" />
       <path value="$PROJECT_DIR$/app/vendor/symfony/validator" />
+      <path value="$PROJECT_DIR$/app/vendor/dama/doctrine-test-bundle" />
     </include_path>
   </component>
   <component name="ProjectColorInfo">{
@@ -208,72 +191,78 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Docker.docker/docker-compose.yaml.composer: Compose Deployment.executor": "Run",
-    "Docker.docker/docker-compose.yaml.php-cli: Compose Deployment.executor": "Run",
-    "Docker.docker/docker-compose.yaml.postgres: Compose Deployment.executor": "Run",
-    "Node.js.Fix Prettier.executor": "Run",
-    "PHP Script.Clear Symfony cache (test).executor": "Run",
-    "PHP Script.Setup clean DB.executor": "Run",
-    "PHP Script.php-cs-fixer.executor": "Run",
-    "PHPUnit.AddEpisodeServiceTest.testSuccess.executor": "Run",
-    "PHPUnit.AddReviewServiceTest.testSuccess.executor": "Debug",
-    "PHPUnit.CreateEpisodeServiceTest.testSuccess.executor": "Run",
-    "PHPUnit.SentimentAnalyzerTest.executor": "Run",
-    "PHPUnit.SentimentAnalyzerTest.testNegativeSuccess.executor": "Debug",
-    "PHPUnit.SentimentAnalyzerTest.testPositiveSuccess.executor": "Debug",
-    "PHPUnit.SentimentAnalyzerTest.testSuccess.executor": "Debug",
-    "PHPUnit.UserAddReviewTest.executor": "Run",
-    "PHPUnit.UserEpisodeTest.testAddReviewSuccess.executor": "Run",
-    "PHPUnit.UserEpisodeTest.testGetEpisodeSummarySuccess.executor": "Debug",
-    "PHPUnit.UserEpisodeTest.testTooShortFail.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/lizaveta/Documents/WEB/test/test-task-shevtcova/.run",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "/Users/lizaveta/Documents/WEB/test/test-task-shevtcova/app/node_modules/prettier",
-    "settings.editor.selected.configurable": "php.test.frameworks.configurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Docker.docker/docker-compose.yaml.composer: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker/docker-compose.yaml.php-cli: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker/docker-compose.yaml.postgres: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.Fix Prettier.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.Clear Symfony cache (test).executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.Setup clean DB.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.php-cs-fixer.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.AddEpisodeServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.AddEpisodeServiceTest.testSuccess.executor&quot;: &quot;Debug&quot;,
+    &quot;PHPUnit.AddReviewServiceTest.testSuccess.executor&quot;: &quot;Debug&quot;,
+    &quot;PHPUnit.CreateEpisodeServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.CreateEpisodeServiceTest.testSuccess.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.PHPUnit.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.SentimentAnalyzerTest.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.SentimentAnalyzerTest.testNegativeSuccess.executor&quot;: &quot;Debug&quot;,
+    &quot;PHPUnit.SentimentAnalyzerTest.testPositiveSuccess.executor&quot;: &quot;Debug&quot;,
+    &quot;PHPUnit.SentimentAnalyzerTest.testSuccess.executor&quot;: &quot;Debug&quot;,
+    &quot;PHPUnit.UserAddReviewTest.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.UserAddReviewTest.testAddReviewSuccess.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.UserAddReviewTest.testAddReviewTooShortFail.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.UserEpisodeTest.testAddReviewSuccess.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.UserEpisodeTest.testGetEpisodeSummarySuccess.executor&quot;: &quot;Debug&quot;,
+    &quot;PHPUnit.UserEpisodeTest.testTooShortFail.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/lizaveta/Documents/WEB/test/test-task-shevtcova/app/config&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/lizaveta/Documents/WEB/test/test-task-shevtcova/app/node_modules/prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;php.test.frameworks.configurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/config" />
       <recent name="$PROJECT_DIR$/.run" />
       <recent name="$PROJECT_DIR$/app" />
       <recent name="$PROJECT_DIR$/app/tests/Functional/Infrastructure" />
       <recent name="$PROJECT_DIR$/app/src/Domain/Review" />
     </key>
   </component>
-  <component name="RunManager" selected="PHPUnit.UserAddReviewTest">
-    <configuration name="AddReviewServiceTest.testSuccess" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="App\Tests\Functional\Domain\Review\Service\AddReviewServiceTest" file="$PROJECT_DIR$/app/tests/Functional/Domain/Review/Service/AddReviewServiceTest.php" method="testSuccess" scope="Method" />
+  <component name="RunManager" selected="PHPUnit.UserAddReviewTest.testAddReviewTooShortFail">
+    <configuration name="AddEpisodeServiceTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="App\Tests\Functional\Domain\Episode\Service\AddEpisodeServiceTest" configuration_file="/var/www/html/phpunit.dist.xml" file="$PROJECT_DIR$/app/tests/Functional/Domain/Episode/Service/AddEpisodeServiceTest.php" scope="Class" />
+      <method v="2" />
+    </configuration>
+    <configuration name="AddEpisodeServiceTest.testSuccess" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="App\Tests\Functional\Domain\Episode\Service\AddEpisodeServiceTest" configuration_file="/var/www/html/phpunit.dist.xml" file="$PROJECT_DIR$/app/tests/Functional/Domain/Episode/Service/AddEpisodeServiceTest.php" method="testSuccess" scope="Method" />
       <method v="2" />
     </configuration>
     <configuration name="UserAddReviewTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="App\Tests\Functional\Infrastructure\Http\User\UserAddReviewTest" file="$PROJECT_DIR$/app/tests/Functional/Infrastructure/Http/User/UserAddReviewTest.php" scope="Class" />
+      <TestRunner class="App\Tests\Functional\Infrastructure\Http\User\UserAddReviewTest" configuration_file="/var/www/html/phpunit.dist.xml" file="$PROJECT_DIR$/app/tests/Functional/Infrastructure/Http/User/UserAddReviewTest.php" scope="Class" />
       <method v="2" />
     </configuration>
-    <configuration name="UserEpisodeTest.testAddReviewSuccess" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="App\Tests\Functional\Infrastructure\Http\User\UserEpisodeTest" file="$PROJECT_DIR$/app/tests/Functional/Infrastructure/Http/User/UserAddReviewTest.php" method="testAddReviewSuccess" scope="Method" />
+    <configuration name="UserAddReviewTest.testAddReviewSuccess" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="App\Tests\Functional\Infrastructure\Http\User\UserAddReviewTest" configuration_file="/var/www/html/phpunit.dist.xml" file="$PROJECT_DIR$/app/tests/Functional/Infrastructure/Http/User/UserAddReviewTest.php" method="testAddReviewSuccess" scope="Method" />
       <method v="2" />
     </configuration>
-    <configuration name="UserEpisodeTest.testGetEpisodeSummarySuccess" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="App\Tests\Functional\Infrastructure\Http\User\UserEpisodeTest" file="$PROJECT_DIR$/app/tests/Functional/Infrastructure/Http/User/UserAddReviewTest.php" method="testGetEpisodeSummarySuccess" scope="Method" />
-      <method v="2" />
-    </configuration>
-    <configuration name="UserEpisodeTest.testTooShortFail" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
-      <TestRunner class="App\Tests\Functional\Infrastructure\Http\User\UserEpisodeTest" file="$PROJECT_DIR$/app/tests/Functional/Infrastructure/Http/User/UserAddReviewTest.php" method="testTooShortFail" scope="Method" />
+    <configuration name="UserAddReviewTest.testAddReviewTooShortFail" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner class="App\Tests\Functional\Infrastructure\Http\User\UserAddReviewTest" configuration_file="/var/www/html/phpunit.dist.xml" file="$PROJECT_DIR$/app/tests/Functional/Infrastructure/Http/User/UserAddReviewTest.php" method="testAddReviewTooShortFail" scope="Method" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="docker-deploy" factoryName="docker-compose.yml" temporary="true">
@@ -286,19 +275,20 @@
       <item itemvalue="PHP Script.Clear Symfony cache (test)" />
       <item itemvalue="PHP Script.Setup clean DB" />
       <item itemvalue="PHP Script.php-cs-fixer" />
-      <item itemvalue="PHPUnit.AddReviewServiceTest.testSuccess" />
+      <item itemvalue="PHPUnit.PHPUnit" />
+      <item itemvalue="PHPUnit.UserAddReviewTest.testAddReviewTooShortFail" />
+      <item itemvalue="PHPUnit.AddEpisodeServiceTest" />
       <item itemvalue="PHPUnit.UserAddReviewTest" />
-      <item itemvalue="PHPUnit.UserEpisodeTest.testAddReviewSuccess" />
-      <item itemvalue="PHPUnit.UserEpisodeTest.testGetEpisodeSummarySuccess" />
-      <item itemvalue="PHPUnit.UserEpisodeTest.testTooShortFail" />
+      <item itemvalue="PHPUnit.UserAddReviewTest.testAddReviewSuccess" />
+      <item itemvalue="PHPUnit.AddEpisodeServiceTest.testSuccess" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="PHPUnit.UserAddReviewTest.testAddReviewTooShortFail" />
+        <item itemvalue="PHPUnit.AddEpisodeServiceTest" />
+        <item itemvalue="PHPUnit.AddEpisodeServiceTest.testSuccess" />
         <item itemvalue="PHPUnit.UserAddReviewTest" />
-        <item itemvalue="PHPUnit.UserEpisodeTest.testGetEpisodeSummarySuccess" />
-        <item itemvalue="PHPUnit.UserEpisodeTest.testAddReviewSuccess" />
-        <item itemvalue="PHPUnit.UserEpisodeTest.testTooShortFail" />
-        <item itemvalue="PHPUnit.AddReviewServiceTest.testSuccess" />
+        <item itemvalue="PHPUnit.UserAddReviewTest.testAddReviewSuccess" />
       </list>
     </recent_temporary>
   </component>
@@ -322,7 +312,9 @@
       <workItem from="1752322071011" duration="665000" />
       <workItem from="1752322745237" duration="4754000" />
       <workItem from="1752327518804" duration="2225000" />
-      <workItem from="1752329757049" duration="9241000" />
+      <workItem from="1752329757049" duration="11501000" />
+      <workItem from="1752396874814" duration="3849000" />
+      <workItem from="1752400742374" duration="527000" />
     </task>
     <servers />
   </component>

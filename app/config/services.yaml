@@ -1,4 +1,5 @@
 parameters:
+    rick_and_morty_api_strategy: '%env(RICK_AND_MORTY_API_STRATEGY)%'
 
 services:
     _defaults:

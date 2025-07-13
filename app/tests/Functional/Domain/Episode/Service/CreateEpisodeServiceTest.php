@@ -7,7 +7,6 @@ namespace App\Tests\Functional\Domain\Episode\Service;
 use App\Domain\Episode\Service\CreateEpisodeService;
 use App\Tests\BaseTestCase;
 use PHPUnit\Framework\Attributes\CoversClass;
-use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 
 #[CoversClass(CreateEpisodeService::class)]
 final class CreateEpisodeServiceTest extends BaseTestCase

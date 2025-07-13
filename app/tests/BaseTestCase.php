@@ -1,13 +1,11 @@
 <?php
 
+declare(strict_types=1);
+
 namespace App\Tests;
 
-use RuntimeException;
-use Symfony\Bundle\FrameworkBundle\KernelBrowser;
 use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 use Symfony\Component\DependencyInjection\Exception\ServiceNotFoundException;
-use Symfony\Component\DomCrawler\Crawler;
-use Symfony\Component\HttpFoundation\JsonResponse;
 
 abstract class BaseTestCase extends WebTestCase
 {
@@ -21,7 +19,7 @@ abstract class BaseTestCase extends WebTestCase
         }
 
         if (!$service instanceof $id) {
-            throw new RuntimeException();
+            throw new \RuntimeException();
         }
 
         return $service;

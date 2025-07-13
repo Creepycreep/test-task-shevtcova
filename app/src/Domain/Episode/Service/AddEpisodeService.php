@@ -12,7 +12,8 @@ readonly class AddEpisodeService
     public function __construct(
         private CreateEpisodeService $createEpisodeService,
         private EpisodeApiInterface $episodeApi,
-    ) {}
+    ) {
+    }
 
     public function add(int $externalId): Episode
     {

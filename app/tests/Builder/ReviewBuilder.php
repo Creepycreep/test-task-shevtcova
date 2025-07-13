@@ -13,7 +13,8 @@ readonly class ReviewBuilder
     public function __construct(
         private CreateEpisodeService $createEpisodeService,
         private EntityManagerInterface $entityManager,
-    ) {}
+    ) {
+    }
 
     public function build(): Episode
     {

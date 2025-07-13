@@ -7,7 +7,7 @@ namespace App\Presentation\Http\User\Controller;
 use App\Domain\Episode\Repository\EpisodeRepository;
 use App\Domain\Episode\Service\AddEpisodeService;
 use App\Domain\Review\Service\AddReviewService;
-use App\Presentation\HTTP\User\Dto\AddReviewDto;
+use App\Presentation\Http\User\Dto\AddReviewDto;
 use Doctrine\ORM\EntityManagerInterface;
 use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 use Symfony\Component\HttpFoundation\JsonResponse;

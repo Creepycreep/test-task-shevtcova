@@ -4,12 +4,9 @@ declare(strict_types=1);
 
 namespace App\Tests\Functional\Infrastructure\Http\User;
 
-use App\Domain\Episode\Service\AddEpisodeService;
-use App\Presentation\Http\User\Controller\UserAddReviewController;
 use App\Presentation\Http\User\Controller\UserGetEpisodeSummaryController;
 use App\Tests\BaseTestCase;
 use PHPUnit\Framework\Attributes\CoversClass;
-use Symfony\Bundle\FrameworkBundle\Test\WebTestCase;
 use Symfony\Component\HttpFoundation\Request;
 
 #[CoversClass(UserGetEpisodeSummaryController::class)]

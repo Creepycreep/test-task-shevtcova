@@ -6,7 +6,6 @@ namespace App\Domain\Episode\Repository;
 
 use App\Domain\Episode\Episode;
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
-use Doctrine\ORM\EntityNotFoundException;
 use Doctrine\Persistence\ManagerRegistry;
 
 class EpisodeRepository extends ServiceEntityRepository

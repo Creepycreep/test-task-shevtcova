@@ -46,7 +46,7 @@ services:
       - type: bind
         source: ./../app/
         target: /var/www/html/
-    env_file: ./../app/.env.test
+    env_file: ./../app/.env.dev
 
   composer:
     container_name: ${COMPOSE_PROJECT_NAME}-composer
