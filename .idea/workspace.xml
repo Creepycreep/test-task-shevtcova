@@ -5,12 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b3c070a6-dd47-4888-abae-a271c5b7b8e5" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.run/Doctrine_ create database.run.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.run/Doctrine_ drop database.run.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1b2fe7c6-d899-4308-9dd3-80ca2ed42b6e/storage_v2/_src_/database/test-task.4B3otg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1b2fe7c6-d899-4308-9dd3-80ca2ed42b6e/storage_v2/_src_/database/test-task.4B3otg/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1b2fe7c6-d899-4308-9dd3-80ca2ed42b6e/storage_v2/_src_/database/test-task.4B3otg/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/1b2fe7c6-d899-4308-9dd3-80ca2ed42b6e/storage_v2/_src_/database/test-task.4B3otg/schema/public.abK9xQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -163,52 +160,52 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Docker.docker/docker-compose.yaml.composer: Compose Deployment.executor": "Run",
-    "Docker.docker/docker-compose.yaml.php-cli: Compose Deployment.executor": "Run",
-    "Docker.docker/docker-compose.yaml.postgres: Compose Deployment.executor": "Run",
-    "Node.js.Fix Prettier.executor": "Run",
-    "PHP Script.Clear Symfony cache (test).executor": "Run",
-    "PHP Script.Doctrine: create database.executor": "Run",
-    "PHP Script.Doctrine: drop database.executor": "Run",
-    "PHP Script.Setup clean DB.executor": "Run",
-    "PHP Script.php-cs-fixer.executor": "Run",
-    "PHPUnit.AddEpisodeServiceTest.executor": "Run",
-    "PHPUnit.AddEpisodeServiceTest.testSuccess.executor": "Debug",
-    "PHPUnit.AddReviewServiceTest.testSuccess.executor": "Debug",
-    "PHPUnit.CreateEpisodeServiceTest.executor": "Run",
-    "PHPUnit.CreateEpisodeServiceTest.testSuccess.executor": "Run",
-    "PHPUnit.PHPUnit.executor": "Run",
-    "PHPUnit.SentimentAnalyzerTest.executor": "Run",
-    "PHPUnit.SentimentAnalyzerTest.testNegativeSuccess.executor": "Debug",
-    "PHPUnit.SentimentAnalyzerTest.testPositiveSuccess.executor": "Debug",
-    "PHPUnit.SentimentAnalyzerTest.testSuccess.executor": "Debug",
-    "PHPUnit.UserAddReviewTest.executor": "Run",
-    "PHPUnit.UserAddReviewTest.testAddReviewSuccess.executor": "Run",
-    "PHPUnit.UserAddReviewTest.testAddReviewTooShortFail.executor": "Run",
-    "PHPUnit.UserEpisodeTest.testAddReviewSuccess.executor": "Run",
-    "PHPUnit.UserEpisodeTest.testGetEpisodeSummarySuccess.executor": "Debug",
-    "PHPUnit.UserEpisodeTest.testTooShortFail.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "/Users/lizaveta/Documents/WEB/test/test-task-shevtcova/.run",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "prettierjs.PrettierConfiguration.Package": "/Users/lizaveta/Documents/WEB/test/test-task-shevtcova/app/node_modules/prettier",
-    "settings.editor.selected.configurable": "php.test.frameworks.configurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Docker.docker/docker-compose.yaml.composer: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker/docker-compose.yaml.php-cli: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Docker.docker/docker-compose.yaml.postgres: Compose Deployment.executor&quot;: &quot;Run&quot;,
+    &quot;Node.js.Fix Prettier.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.Clear Symfony cache (test).executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.Doctrine: create database.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.Doctrine: drop database.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.Setup clean DB.executor&quot;: &quot;Run&quot;,
+    &quot;PHP Script.php-cs-fixer.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.AddEpisodeServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.AddEpisodeServiceTest.testSuccess.executor&quot;: &quot;Debug&quot;,
+    &quot;PHPUnit.AddReviewServiceTest.testSuccess.executor&quot;: &quot;Debug&quot;,
+    &quot;PHPUnit.CreateEpisodeServiceTest.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.CreateEpisodeServiceTest.testSuccess.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.PHPUnit.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.SentimentAnalyzerTest.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.SentimentAnalyzerTest.testNegativeSuccess.executor&quot;: &quot;Debug&quot;,
+    &quot;PHPUnit.SentimentAnalyzerTest.testPositiveSuccess.executor&quot;: &quot;Debug&quot;,
+    &quot;PHPUnit.SentimentAnalyzerTest.testSuccess.executor&quot;: &quot;Debug&quot;,
+    &quot;PHPUnit.UserAddReviewTest.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.UserAddReviewTest.testAddReviewSuccess.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.UserAddReviewTest.testAddReviewTooShortFail.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.UserEpisodeTest.testAddReviewSuccess.executor&quot;: &quot;Run&quot;,
+    &quot;PHPUnit.UserEpisodeTest.testGetEpisodeSummarySuccess.executor&quot;: &quot;Debug&quot;,
+    &quot;PHPUnit.UserEpisodeTest.testTooShortFail.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/lizaveta/Documents/WEB/test/test-task-shevtcova/.run&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;prettierjs.PrettierConfiguration.Package&quot;: &quot;/Users/lizaveta/Documents/WEB/test/test-task-shevtcova/app/node_modules/prettier&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;php.test.frameworks.configurable&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/config" />
@@ -218,7 +215,7 @@
       <recent name="$PROJECT_DIR$/app/src/Domain/Review" />
     </key>
   </component>
-  <component name="RunManager" selected="PHP Script.Setup clean DB">
+  <component name="RunManager" selected="PHPUnit.UserAddReviewTest.testAddReviewTooShortFail">
     <configuration name="AddEpisodeServiceTest" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
       <TestRunner class="App\Tests\Functional\Domain\Episode\Service\AddEpisodeServiceTest" configuration_file="/var/www/html/phpunit.dist.xml" file="$PROJECT_DIR$/app/tests/Functional/Domain/Episode/Service/AddEpisodeServiceTest.php" scope="Class" />
       <method v="2" />
@@ -246,12 +243,6 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="PHP Script.Doctrine: create database" />
-      <item itemvalue="PHP Script.Doctrine: drop database" />
-      <item itemvalue="PHP Script.Clear Symfony cache (test)" />
-      <item itemvalue="PHP Script.Setup clean DB" />
-      <item itemvalue="PHP Script.php-cs-fixer" />
-      <item itemvalue="PHPUnit.PHPUnit" />
       <item itemvalue="PHPUnit.UserAddReviewTest.testAddReviewTooShortFail" />
       <item itemvalue="PHPUnit.AddEpisodeServiceTest" />
       <item itemvalue="PHPUnit.UserAddReviewTest" />
@@ -296,6 +287,9 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LAST_COMMIT_MESSAGE" value="" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
